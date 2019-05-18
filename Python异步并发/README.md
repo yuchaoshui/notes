@@ -55,3 +55,12 @@ yield_from的出现简化了生成器的语法，主要有两个功能：
 - asyncio是Python 3.4 引入的异步I/O框架，提供了基于协程做异步I/O编写单线程并发代码的基础设施。其核心组件有事件循环（Event Loop）、协程(Coroutine）、任务(Task)、未来对象(Future)以及其他一些扩充和辅助性质的模块。
 - 装饰器@asyncio.coroutine用于装饰使用了yield from的函数，以标记其为协程。
 - async/await语法是对yield from的优化，称之为原生协程。async/await 和 yield from这两种风格的协程底层复用共同的实现，而且相互兼容。
+
+# socket_server_sync.py
+一个同步的简单socket server
+
+# socket_server_async.py
+一个异步的简单socket server
+
+
+
